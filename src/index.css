@@ -55,4 +55,19 @@
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
+  .customer-dark{
+    @apply font-montserrat text-slate-gray text-lg leading-7 text-green-400 bg-pale-blue padding ;
+  }
+}
+
+@layer nature{
+  .nature{
+    background-color: greenyellow;
+    padding: 10%;
+  }
+  .container-aqua{
+    background-color: aqua;
+    text-align: center;
+    color:red;
+  }
 }
