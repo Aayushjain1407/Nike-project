@@ -4,7 +4,7 @@ const App= () => (
  <main className="relative">
   <Nav />
 
-  <section className="x1:padding-1 
+  <section className="xl:padding-l
   wide:padding -r padding -b">
     <Hero />
   </section>
@@ -14,13 +14,13 @@ const App= () => (
   <section className="padding">
     <SuperQuality />
   </section>
-  <section className="nature container-aqua">
+  <section className="padding-x py-10">
     <Services />
   </section>
   <section className="padding">
     <SpeacialOffers />
   </section>
-  <section className="customer-dark">
+  <section className="bg-pale-blue padding">
    <CustomerReviews />
   </section>
   <section className="padding-x sm:py-32 py-16 w-full">
